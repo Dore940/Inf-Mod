@@ -1,0 +1,72 @@
+CPN Tools state space report for:
+/cygdrive/C/Users/o_ageeva/Desktop/3year/MIP/cpntools/lab9/feed_the_student.cpn
+Report generated: Sat May 23 20:07:07 2020
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  4
+     Arcs:   3
+     Secs:   0
+     Status: Full
+
+  Scc Graph
+     Nodes:  4
+     Arcs:   3
+     Secs:   0
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+  Best Integer Bounds
+                             Upper      Lower
+     feed_the_student_page'hungry_students 1
+                             3          0
+     feed_the_student_page'pies 1
+                             5          2
+     feed_the_student_page'satisfied_students 1
+                             3          0
+
+  Best Upper Multi-set Bounds
+     feed_the_student_page'hungry_students 1
+                         3`student
+     feed_the_student_page'pies 1
+                         5`pie
+     feed_the_student_page'satisfied_students 1
+                         3`student
+
+  Best Lower Multi-set Bounds
+     feed_the_student_page'hungry_students 1
+                         empty
+     feed_the_student_page'pies 1
+                         2`pie
+     feed_the_student_page'satisfied_students 1
+                         empty
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     [4]
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     [4]
+
+  Dead Transition Instances
+     None
+
+  Live Transition Instances
+     None
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+     No infinite occurrence sequences.

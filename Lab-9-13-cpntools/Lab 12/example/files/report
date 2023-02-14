@@ -1,0 +1,137 @@
+CPN Tools state space report for:
+/cygdrive/C/Users/o_ageeva/Desktop/3year/MIP/cpntools/lab12/protocol.cpn
+Report generated: Mon May 25 18:14:49 2020
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  27944
+     Arcs:   464742
+     Secs:   300
+     Status: Partial
+
+  Scc Graph
+     Nodes:  14678
+     Arcs:   389838
+     Secs:   12
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+  Best Integer Bounds
+                             Upper      Lower
+     model'a 1               22         0
+     model'b 1               11         0
+     model'c 1               7          0
+     model'd 1               5          0
+     model'nextrec 1         1          1
+     model'nextsend 1        1          1
+     model'reciever 1        1          1
+     model'sa 1              1          1
+     model'send 1            8          8
+     model'sp 1              1          1
+
+  Best Upper Multi-set Bounds
+     model'a 1           22`(1,"Modellin")++
+16`(2,"g and An")++
+11`(3,"alysis b")++
+6`(4,"y Means ")++
+1`(5,"of Colou")
+     model'b 1           11`(1,"Modellin")++
+8`(2,"g and An")++
+5`(3,"alysis b")++
+3`(4,"y Means ")
+     model'c 1           7`2++
+5`3++
+4`4++
+2`5
+     model'd 1           5`2++
+4`3++
+2`4++
+1`5
+     model'nextrec 1     1`1++
+1`2++
+1`3++
+1`4++
+1`5
+     model'nextsend 1    1`1++
+1`2++
+1`3++
+1`4++
+1`5
+     model'reciever 1    1`""++
+1`"Modellin"++
+1`"Modelling and An"++
+1`"Modelling and Analysis b"++
+1`"Modelling and Analysis by Means "
+     model'sa 1          1`8
+     model'send 1        1`(1,"Modellin")++
+1`(2,"g and An")++
+1`(3,"alysis b")++
+1`(4,"y Means ")++
+1`(5,"of Colou")++
+1`(6,"red Petr")++
+1`(7,"y Nets##")++
+1`(8,"########")
+     model'sp 1          1`8
+
+  Best Lower Multi-set Bounds
+     model'a 1           empty
+     model'b 1           empty
+     model'c 1           empty
+     model'd 1           empty
+     model'nextrec 1     empty
+     model'nextsend 1    empty
+     model'reciever 1    empty
+     model'sa 1          1`8
+     model'send 1        1`(1,"Modellin")++
+1`(2,"g and An")++
+1`(3,"alysis b")++
+1`(4,"y Means ")++
+1`(5,"of Colou")++
+1`(6,"red Petr")++
+1`(7,"y Nets##")++
+1`(8,"########")
+     model'sp 1          1`8
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     None
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     9888 [27944,27943,27942,27941,27940,...]
+
+  Dead Transition Instances
+     None
+
+  Live Transition Instances
+     None
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+
+  Impartial Transition Instances
+     model'send_packet 1
+     model'transmit_packet 1
+
+  Fair Transition Instances
+     None
+
+  Just Transition Instances
+     None
+
+  Transition Instances with No Fairness
+     model'recieved_packed 1
+     model'send_ACK 1
+     model'transmit_ACK 1

@@ -1,0 +1,86 @@
+CPN Tools state space report for:
+/cygdrive/C/Users/o_ageeva/Desktop/3year/MIP/cpntools/lab13/model.cpn
+Report generated: Wed Jun  3 22:22:07 2020
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  5
+     Arcs:   10
+     Secs:   0
+     Status: Full
+
+  Scc Graph
+     Nodes:  1
+     Arcs:   0
+     Secs:   0
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+  Best Integer Bounds
+                             Upper      Lower
+     model'p1 1              1          1
+     model'p2 1              1          0
+     model'p3 1              1          0
+     model'p4 1              1          0
+     model'p5 1              1          0
+     model'p6 1              1          0
+
+  Best Upper Multi-set Bounds
+     model'p1 1          1`memory
+     model'p2 1          1`storage1
+     model'p3 1          1`storage2
+     model'p4 1          1`storage1
+     model'p5 1          1`storage2
+     model'p6 1          1`(storage1,storage2)
+
+  Best Lower Multi-set Bounds
+     model'p1 1          1`memory
+     model'p2 1          empty
+     model'p3 1          empty
+     model'p4 1          empty
+     model'p5 1          empty
+     model'p6 1          empty
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     All
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     None
+
+  Dead Transition Instances
+     None
+
+  Live Transition Instances
+     All
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+
+  Impartial Transition Instances
+     None
+
+  Fair Transition Instances
+     model't6 1
+
+  Just Transition Instances
+     model't5 1
+
+  Transition Instances with No Fairness
+     model't1 1
+     model't2 1
+     model't3 1
+     model't4 1
